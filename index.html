@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LUVTrader is a modern trading workflow hub for market analysis, watchlists, and disciplined decision-making."
+    />
+    <title>LUVTrader</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">LUVTrader</p>
+        <h1 id="hero-title">Trade with clarity, discipline, and confidence.</h1>
+        <p class="hero-copy">
+          LUVTrader brings your market preparation, trading plan, and review workflow into a focused web experience built for production deployment.
+        </p>
+        <div class="actions" aria-label="Primary actions">
+          <a class="button button-primary" href="mailto:hello@luvtrader.com">Contact LUVTrader</a>
+          <a class="button button-secondary" href="#deployment-ready">Deployment status</a>
+        </div>
+      </section>
+
+      <section id="deployment-ready" class="status-card" aria-labelledby="status-title">
+        <div>
+          <p class="eyebrow">Vercel ready</p>
+          <h2 id="status-title">Production homepage is available.</h2>
+        </div>
+        <ul class="check-list">
+          <li>Static root contains a lowercase <code>index.html</code>.</li>
+          <li>Styles and scripts use production-safe relative paths.</li>
+          <li>No localhost API dependency is required for the homepage.</li>
+        </ul>
+      </section>
+    </main>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
